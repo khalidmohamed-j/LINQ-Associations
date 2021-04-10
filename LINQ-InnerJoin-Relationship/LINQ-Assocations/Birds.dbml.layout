@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Birds">
+  <DataContextMoniker Name="/BirdsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="cd502eec-c767-4ed9-9f17-0e70d55d1edc" absoluteBounds="0.5, 1.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/BirdsDataContext/Bird" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f8f4cc5b-97b9-426a-ac9f-b5289b09396f" absoluteBounds="0.51500000000000012, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3801982c-3ed6-41ed-ba76-927aabcdbcef" absoluteBounds="3.25, 1.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/BirdsDataContext/BirdCount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2e645178-fb5d-4950-92d8-025087260909" absoluteBounds="3.2649999999999997, 1.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 2.06814697265625); (3.25 : 2.06814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BirdsDataContext/Bird/Bird_BirdCount" />
+      <nodes>
+        <classShapeMoniker Id="cd502eec-c767-4ed9-9f17-0e70d55d1edc" />
+        <classShapeMoniker Id="3801982c-3ed6-41ed-ba76-927aabcdbcef" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
